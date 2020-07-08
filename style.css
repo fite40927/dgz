@@ -1,12 +1,10 @@
 nav {
-    position: sticky;
-    background-color: white;
     box-shadow: 0 4px 4px -4px #999;
 }
 body {
+    margin-top: 50px;
     background: whitesmoke;
     margin-bottom: 50px;
-    min-height: 100%;
     position:relative;
 }
 footer {
@@ -16,21 +14,27 @@ footer {
     background-color: lightgrey;
     padding: 30px;
 }
-
-.navbar-brand{
-    color: steelblue;
+.nav-item{
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
+.navbar-brand{
+    color: steelblue!important;
+}
+
 .active{
-    color: steelblue;
+    color: steelblue!important;
 }
 .masthead {
     height: 50vh;
-    min-height: 250px;
     background-image: url('https://www.publicdomainpictures.net/pictures/40000/velka/blue-abstract-background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
+}
+.spacer{
+    padding: 5px;
 }
 
 a {
@@ -40,7 +44,7 @@ a {
 }
 
 a:hover{
-    color: steelblue;
+    color: steelblue!important;
     text-decoration: none;
     transition: color 0.25s linear;
 }
