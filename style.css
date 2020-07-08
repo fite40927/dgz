@@ -1,18 +1,6 @@
+/* Nav */
 nav {
     box-shadow: 0 4px 4px -4px #999;
-}
-body {
-    margin-top: 50px;
-    background: whitesmoke;
-    margin-bottom: 50px;
-    position:relative;
-}
-footer {
-    position: relative;
-    bottom: -50px;
-    width: 100%;
-    background-color: lightgrey;
-    padding: 30px;
 }
 .nav-item{
     padding-left: 2vw;
@@ -22,9 +10,40 @@ footer {
     color: steelblue!important;
 }
 
+/* Body */
+body {
+    margin-top: 50px;
+    background: whitesmoke;
+    margin-bottom: 50px;
+    position:relative;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: -50px;
+    width: 100%;
+    background-color: lightgrey;
+    padding: 30px;
+}
+
+/* Font */
+a {
+    color: dimgrey;
+    text-decoration: none;
+    transition: color 0.25s linear;
+}
+a:hover{
+    color: steelblue!important;
+    text-decoration: none;
+    transition: color 0.25s linear;
+}
+
 .active{
     color: steelblue!important;
 }
+
+/* Blocks */
 .masthead {
     height: 50vh;
     background-image: url('https://www.publicdomainpictures.net/pictures/40000/velka/blue-abstract-background.jpg');
@@ -33,18 +52,7 @@ footer {
     background-repeat: no-repeat;
     color: white;
 }
+
 .spacer{
     padding: 5px;
-}
-
-a {
-    color: dimgrey;
-    text-decoration: none;
-    transition: color 0.25s linear;
-}
-
-a:hover{
-    color: steelblue!important;
-    text-decoration: none;
-    transition: color 0.25s linear;
 }
