@@ -36,6 +36,7 @@ footer {
 a {
     color: dimgrey;
     text-decoration: none;
+    transition: color 0.25s linear;
 }
 
 a:hover{
